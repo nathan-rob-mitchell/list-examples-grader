@@ -1,0 +1,17 @@
+TestListExamples.java:1: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+TestListExamples.java:2: error: package org.junit does not exist
+import org.junit.*;
+^
+TestListExamples.java:13: error: cannot find symbol
+  @Test(timeout = 500)
+   ^
+  symbol:   class Test
+  location: class TestListExamples
+TestListExamples.java:19: error: cannot find symbol
+    assertEquals(expected, merged);
+    ^
+  symbol:   method assertEquals(List<String>,List<String>)
+  location: class TestListExamples
+4 errors
